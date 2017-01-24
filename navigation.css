@@ -1,0 +1,38 @@
+ul.topnav {
+    list-style-type: none;
+    margin: 2px;
+    padding: 0;
+    overflow: hidden;
+    background-color:  lightblue;
+}
+
+ul.topnav li a:hover {
+	background-color: #555;
+	color: orange;
+}
+
+ul.topnav li a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+    position: relative;    
+	z-index: 1;     
+	padding: 5px;     
+	margin: 5px;
+}
+
+li a {
+	float: left;
+}
+
+/*ul.topnav li a:after {
+  position: relative;
+}
+
+ul.topnav li a:after {
+  padding: 0 5px 0 5px;
+}*/
+
+
