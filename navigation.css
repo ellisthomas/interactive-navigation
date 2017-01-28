@@ -11,15 +11,15 @@ ul.topnav li a:hover {
 	color: orange;
 }
 
-ul.topnav li a {
+ul.topnav li a:active {
     display: inline-block;
     text-align: center;
     text-decoration: none;
     transition: 0.3s;
-    font-size: 17px;
+    font-size: 30px;
     position: relative;    
 	z-index: 1;     
-	padding: 5px;     
+	padding: 0 5px 0 5px;     
 	margin: 5px;
 }
 
@@ -27,12 +27,6 @@ li a {
 	float: left;
 }
 
-/*ul.topnav li a:after {
-  position: relative;
-}
 
-ul.topnav li a:after {
-  padding: 0 5px 0 5px;
-}*/
 
 
